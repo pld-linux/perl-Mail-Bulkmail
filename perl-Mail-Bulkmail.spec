@@ -9,7 +9,7 @@ Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpm-perlprov >= 4.0.2
 BuildRequires:	perl-devel >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -26,7 +26,6 @@ mailowych.
 
 %build
 %{__perl} Makefile.PL
-#	INSTALLDIRS=vendor
 %{__make}
 %{__make} test
 

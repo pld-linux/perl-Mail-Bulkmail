@@ -10,7 +10,7 @@ Summary(pl):	Modu³ Perla %{pdir}::%{pnam}
 Name:		perl-%{pdir}-%{pnam}
 Version:	3.12
 Release:	1
-License:	GPL
+License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8c1275e9655bbe2ba177f9b33e2b694e

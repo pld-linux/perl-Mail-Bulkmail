@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Mail
-%define	pnam	Bulkmail
+%define		pdir	Mail
+%define		pnam	Bulkmail
 Summary:	Mail::Bulkmail - platform independent mailing list module
 Summary(pl):	Mail::Bulkmail - niezale¿ny od platformy modu³ do list mailowych
 Name:		perl-Mail-Bulkmail

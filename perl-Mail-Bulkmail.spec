@@ -8,12 +8,12 @@
 Summary:	%{pdir}::%{pnam} Perl module
 Summary(pl):	Modu³ Perla %{pdir}::%{pnam}
 Name:		perl-%{pdir}-%{pnam}
-Version:	3.09
+Version:	3.12
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f21f0be52b800785113de1fd5d4ef17b
+# Source0-md5:	8c1275e9655bbe2ba177f9b33e2b694e
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch

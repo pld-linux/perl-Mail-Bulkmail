@@ -5,11 +5,11 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Mail
 %define	pnam	Bulkmail
-Summary:	%{pdir}::%{pnam} Perl module
-Summary(pl):	Modu³ Perla %{pdir}::%{pnam}
-Name:		perl-%{pdir}-%{pnam}
+Summary:	Mail::Bulkmail - platform independent mailing list module
+Summary(pl):	Mail::Bulkmail - niezale¿ny od platformy modu³ do list mailowych
+Name:		perl-Mail-Bulkmail
 Version:	3.12
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -20,11 +20,19 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-%{pdir}::%{pnam} is a platform independent mailing list module.
+Mail::Bulkmail gives a fairly complete set of tools for managing
+mass-mailing lists. I initially wrote it because the tools I was using
+at the time were just too damn slow for mailing out to thousands of
+recipients. I keep working on it because it's reasonably popular and I
+enjoy it.
 
-%description -l pl
-%{pdir}::%{pnam} to prosty, niezale¿ny od platformy modu³ do list
-mailowych.
+In a nutshell, it allows you to rapidly transmit a message to a mailing
+list by zipping out the information to them via an SMTP relay (your own,
+of course). Subclasses provide the ability to use mail merges, dynamic
+messages, and anything else you can think of.
+
+# %description -l pl
+# TODO
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

@@ -31,8 +31,17 @@ list by zipping out the information to them via an SMTP relay (your own,
 of course). Subclasses provide the ability to use mail merges, dynamic
 messages, and anything else you can think of.
 
-# %description -l pl
-# TODO
+%description -l pl
+Mail::Bulkmail dostarcza w miarê kompletny zestaw narzêdzi do
+zarz±dzania listami wysy³ki masowej. Zosta³y pocz±tkowo napisane
+poniewa¿ narzêdzia u¿ywane przez autora by³y zbyt wolne przy
+rozsy³aniu do tysiêcy adresatów. Pracuje nad tym modu³em nadal,
+poniewa¿ sta³ siê dosyæ popularny.
+
+W skrócie ten pakiet pozwala szybko wys³aæ wiadomo¶æ na listê
+wysy³kow± poprzez wys³anie informacji do adresatów poprzez przeka¼nik
+SMTP (oczywi¶cie w³asny). Podklasy pozwalaj± na u¿ywanie listów
+³±czonych, wiadomo¶ci dynamicznych i innych rzeczy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

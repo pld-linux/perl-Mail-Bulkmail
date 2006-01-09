@@ -56,7 +56,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes *.txt sample.*
-%{perl_vendorlib}/%{pdir}/%{pnam}.pm
-%dir %{perl_vendorlib}/%{pdir}/%{pnam}
-%{perl_vendorlib}/%{pdir}/%{pnam}/*.pm
+%{perl_vendorlib}/Mail/Bulkmail.pm
+%dir %{perl_vendorlib}/Mail/Bulkmail
+%{perl_vendorlib}/Mail/Bulkmail/*.pm
 %{_mandir}/man3/*

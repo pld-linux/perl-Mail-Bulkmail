@@ -6,7 +6,7 @@
 %define		pdir	Mail
 %define		pnam	Bulkmail
 Summary:	Mail::Bulkmail - platform independent mailing list module
-Summary(pl):	Mail::Bulkmail - niezale¿ny od platformy modu³ do list mailowych
+Summary(pl.UTF-8):   Mail::Bulkmail - niezaleÅ¼ny od platformy moduÅ‚ do list mailowych
 Name:		perl-Mail-Bulkmail
 Version:	3.12
 Release:	2
@@ -31,17 +31,17 @@ list by zipping out the information to them via an SMTP relay (your own,
 of course). Subclasses provide the ability to use mail merges, dynamic
 messages, and anything else you can think of.
 
-%description -l pl
-Mail::Bulkmail dostarcza w miarê kompletny zestaw narzêdzi do
-zarz±dzania listami wysy³ki masowej. Zosta³y pocz±tkowo napisane
-poniewa¿ narzêdzia u¿ywane przez autora by³y zbyt wolne przy
-rozsy³aniu do tysiêcy adresatów. Pracuje nad tym modu³em nadal,
-poniewa¿ sta³ siê dosyæ popularny.
+%description -l pl.UTF-8
+Mail::Bulkmail dostarcza w miarÄ™ kompletny zestaw narzÄ™dzi do
+zarzÄ…dzania listami wysyÅ‚ki masowej. ZostaÅ‚y poczÄ…tkowo napisane
+poniewaÅ¼ narzÄ™dzia uÅ¼ywane przez autora byÅ‚y zbyt wolne przy
+rozsyÅ‚aniu do tysiÄ™cy adresatÃ³w. Pracuje nad tym moduÅ‚em nadal,
+poniewaÅ¼ staÅ‚ siÄ™ dosyÄ‡ popularny.
 
-W skrócie ten pakiet pozwala szybko wys³aæ wiadomo¶æ na listê
-wysy³kow± poprzez wys³anie informacji do adresatów poprzez przeka¼nik
-SMTP (oczywi¶cie w³asny). Podklasy pozwalaj± na u¿ywanie listów
-³±czonych, wiadomo¶ci dynamicznych i innych rzeczy.
+W skrÃ³cie ten pakiet pozwala szybko wysÅ‚aÄ‡ wiadomoÅ›Ä‡ na listÄ™
+wysyÅ‚kowÄ… poprzez wysÅ‚anie informacji do adresatÃ³w poprzez przekaÅºnik
+SMTP (oczywiÅ›cie wÅ‚asny). Podklasy pozwalajÄ… na uÅ¼ywanie listÃ³w
+Å‚Ä…czonych, wiadomoÅ›ci dynamicznych i innych rzeczy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

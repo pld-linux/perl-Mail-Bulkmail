@@ -9,7 +9,7 @@ Summary:	Mail::Bulkmail - platform independent mailing list module
 Summary(pl.UTF-8):	Mail::Bulkmail - niezależny od platformy moduł do list mailowych
 Name:		perl-Mail-Bulkmail
 Version:	3.12
-Release:	2
+Release:	3
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz

@@ -4,7 +4,6 @@
 
 %define		pdir	Mail
 %define		pnam	Bulkmail
-%include	/usr/lib/rpm/macros.perl
 Summary:	Mail::Bulkmail - platform independent mailing list module
 Summary(pl.UTF-8):	Mail::Bulkmail - niezależny od platformy moduł do list mailowych
 Name:		perl-Mail-Bulkmail
